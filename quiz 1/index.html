@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <title>Quiz 1 : Formulir Pendaftaran</title>
+    
+<body>
+    <div class="main-container">
+        <form action="#" onsubmit="return validateForm()" method="get" name="myForm">
+
+        <h1>PEMERINTAH KABUPATEN SOLOK</h1>
+        <h1>RUMAH SAKIT UMUM DAERAH AROSUKA</h2>
+        <p><i>Jl. Raya Solok Padang KM. 20 Arosuka kode Pos 27364</i></p>
+        <p><i>Propinsi Sumatra Barat Telp. / Fax (0755) 31160</i></p>
+        <p><i>Email : rsudarosukakabsolok@gmail.com</i></p>
+        <h3>-----------------------------------------------------------------</h3>
+        <h4> FORMULIR PENDAFTARAN PASIEN BARU </h4>
+        <h5><u>PERHATIAN : HARAP MENGISI FORMULIR INI DENGAN LENGKAP DAN JELAS</u></h5>
+        <div>᲼᲼᲼᲼᲼᲼</div>
+        <h6>I. IDENTITAS PASIEN</h6>
+        <div class="table">
+            <div class="table-row">
+                <label class="input-label table-cell" for="nama-pasien">Nama Pasien : </label>
+                <input type="text" class="table-cell" id="nama-pasien" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="ttl">Tempat Lahir : </label>
+                <input type="text" class="table-cell" id="ttl" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="uut">Tanggal Lahir : </label>
+                <input type="text" class="table-cell" id="uut" placeholder="Day/Month/Year" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="kel-des">Jenis Kelamin : </label>
+                <input type="text" class="table-cell" id="kel-des" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="kecamatan">Alamat : </label>
+                <input type="text" class="table-cell" id="kecamatan" placeholder="Jalan............RT.....RW" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="notelp">Provinsi : </label>
+                <input type="text" class="table-cell" id="notelp" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="notelp">Kecamatan : </label>
+                <input type="text" class="table-cell" id="notelp" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="notelp">Kelurahan/Desa : </label>
+                <input type="text" class="table-cell" id="notelp" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="notelp">No. Tel/HP : </label>
+                <input type="text" class="table-cell" id="notelp" placeholder="081294728914 / 0789223" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="notelp">Kode Pos : </label>
+                <input type="text" class="table-cell" id="notelp" />
+            </div>
+            
+            <div class="table-row">
+                <label class="input-label table-cell" for="lomba">AGAMA: </label>
+                <div class="lombaradio" class="table-cell" id="radio">
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio">1. Islam᲼ ᲼᲼
+                      </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio">2. Kristen᲼᲼
+                      </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio">3. Hindu ᲼᲼
+                      </label>
+
+                </div> 
+
+                <div class="lombaradio" class="table-cell" id="radio">
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio">4. Budha  ᲼
+                      </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio">5. Katolik᲼᲼
+                      </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio">6. Konghucu
+                      </label>
+                    
+                </div> 
+                <div>
+                    <form class="form-inline" action="/action_page.php">
+                        <label for="Lainnya">Lainnya:</label>
+                        <input type="email" id="email" placeholder="Ex :Ateist " name="email">
+                      </form>
+                </div>
+                <div>᲼᲼᲼᲼᲼᲼</div>
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="notelp">Pendidikan Terakhir : </label>
+                <input type="text" class="table-cell" id="notelp" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="notelp">Pekerjaan : </label>
+                <input type="text" class="table-cell" id="notelp" />
+            </div>
+
+            <h6>II. PENANGGUNG JAWAB PASIEN</h6>
+            <div class="identitas">
+                <div class="table-row">
+                    <label class="input-label table-cell" for="nama-pasien">Hubungan Degan Pasien : </label>
+                    <input type="text" class="table-cell" id="nama-pasien" placeholder="Suamin/Istri/Ortu/..." />
+                </div>
+                <div class="table-row">
+                    <label class="input-label table-cell" for="nama-pasien">Nama Penanggung Jawab : </label>
+                    <input type="text" class="table-cell" id="nama-pasien" />
+                </div>
+                <div class="table-row">
+                    <label class="input-label table-cell" for="tl">Pendidikan P. Jawab : </label>
+                    <input type="text" class="table-cell" id="tl" />
+                </div>
+                <div class="table-row">
+                    <label class="input-label table-cell" for="ttl">Pekerjaan P. Jawab : </label>
+                    <input type="text" class="table-cell" id="ttl" />
+
+                    
+                </div>
+                <div class="form-sign">
+                    <p>Tanda Tangan᲼᲼᲼᲼᲼᲼᲼᲼᲼</p>
+                </div>
+                <div class="ttd">
+                    <div class="ttd-peserta">
+        
+                        <p class="ttd-label">(<input type="file" name="file" id="file" />)  </p>
+                        
+                    </div>
+                </div>
+                <p>᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼</p>
+                <p>᲼᲼᲼᲼᲼᲼᲼᲼</p>
+                <div class="bottom"></div>
+                <div class="button-container">
+                    <input type="submit" class="button" value="Submit" />
+                </div>  
+            </div>
+        </div>  
+        <!-- <div class="form-time">
+            <p>Sangatta, </p>
+            <input type="datetime-local"/>
+        </div>
+        <div class="ttd">
+            <div class="ttd-kepala-unit">
+                <p class="ttd-label">Kepala Unit TKA/TPA</p>
+                <input type="file"/>
+            </div>
+            <div class="ttd-pasiennama-pasien">
+                <p class="ttd-label">pasiennama-pasien Lomba</p>
+                <input type="file"/>
+            </div>
+        </div>
+        <div class="bottom"></div>
+        <div class="button-container">
+            <input type="submit" class="button" value="Submit" />
+        </div> -->
+    </form>
+    </div>
+    
+</body>
+</html>

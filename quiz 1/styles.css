@@ -1,0 +1,202 @@
+:root {
+    --background: rgba(233, 230, 230, 0.5);
+    --button-background: rgba(32, 191, 212, 0.5);
+    --button-background-hover: rgba(32, 191, 212, 1);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text);
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h3 {
+text-align: center;
+}
+
+h1, .ttd-label {
+    margin-bottom: 0px;
+}
+
+
+h2 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h5{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h6{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 45px;
+    background-color: var(--background);
+    border: 2px solid black;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 1em;
+}
+
+.table-row {
+    display: table-row;
+    padding: 50px;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    margin-bottom: 15px;
+    padding-right: 18px;
+}
+
+.radio-input {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    min-width: 100%;
+}
+
+.table {
+    margin-bottom: 15px;
+}
+
+.keterangan {
+    text-align: left;
+}
+
+.form-time {
+    float: right;
+    display: flex;
+    gap: 5px;
+    margin-top: 60px;
+}
+
+.ttd {
+    text-align: center;;
+    clear: left;
+    margin-top: 30px;
+}
+
+.ttd-kepala-unit {
+    float: left;
+}
+
+.ttd-peserta {
+    float: right;
+
+}
+
+.lombaradio {
+    text-align: left;
+}
+
+.bottom {
+    clear: left;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: var(--button-background);
+    border-radius: 8px;
+    border-style: none;
+    transition: 0.15s;
+}
+
+.button:hover {
+    background-color: var(--button-background-hover);
+    color: white;
+    cursor: pointer;
+}
+
+.form-sign {
+    float: right;
+    display: flex;
+    gap: 1px;
+    margin-top: 5px;
+}
+
+.ttd {
+    text-align: center;;
+    clear: left;
+    margin-top: 30px;
+}
+
+.ttd-peserta {
+    float: right;
+
+}
+
+.form-sign {
+    float: right;
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.ttd {
+    text-align: center;;
+    clear: left;
+    margin-top: 75px;
+}
+
+.ttd-peserta {
+    float: right;
+
+}
+
+.bottom {
+    clear: left;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: var(--button-background);
+    border-radius: 8px;
+    border-style: none;
+    transition: 0.15s;
+}
+
+.button:hover {
+    background-color: var(--button-background-hover);
+    color: white;
+    cursor: pointer;
+}
+
+#file {
+    width: 185px;
+}
+
